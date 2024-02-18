@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgContainer img {
+    border: 2px solid rgb(255, 157, 29);
+    max-width: 90px;
+    max-height: 90px;
+}
+.imgArrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgWrap {
+    flex-wrap: wrap;
+}
+img {
+    max-width: 93vw;
+    max-height: 88vh;
+}
